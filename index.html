@@ -1,0 +1,267 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tu NutriVida - No sufras en tu dieta</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #fffaf0;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #f37f5f;
+      color: white;
+      padding: 20px 10px;
+      text-align: center;
+      font-size: 2.5em;
+      font-weight: bold;
+      letter-spacing: 1.5px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 15px;
+    }
+    header img {
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+    }
+    .correo-header {
+      font-size: 0.5em;
+      margin-left: auto;
+      margin-right: 10px;
+    }
+    main {
+      max-width: 800px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+    .intro {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
+    }
+    .intro-text {
+      width: 60%;
+    }
+    .side-text {
+      width: 35%;
+      font-size: 1.1em;
+      color: #ff7a3d;
+      font-weight: 600;
+    }
+    .intro p {
+      font-size: 1.2em;
+      margin-bottom: 20px;
+      line-height: 1.5;
+    }
+    .esloganes p {
+      font-style: italic;
+      color: #f37f5f;
+      font-weight: 600;
+      margin: 10px 0;
+      font-size: 1.1em;
+    }
+    .eslogan-resaltado {
+      background-color: #fff0cc;
+      padding: 15px;
+      margin: 30px 0;
+      border-left: 5px solid #f37f5f;
+      font-weight: bold;
+      font-size: 1.2em;
+    }
+    .eslogan-resaltado span {
+      font-size: 2em;
+      color: #28a745;
+    }
+    .imagenes {
+      margin: 30px 0;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .imagenes img {
+      border-radius: 10px;
+      width: 220px;
+      height: auto;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    .boton-pago {
+      background-color: #28a745;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      font-size: 1.2em;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 40px;
+      display: block;
+      width: 100%;
+      text-align: center;
+      text-decoration: none;
+    }
+    .texto-pago {
+      margin-top: 10px;
+      font-size: 0.95em;
+      color: #666;
+      font-weight: 500;
+      text-align: center;
+    }
+    form {
+      margin-top: 30px;
+      background: #fff3e0;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    input[type="text"], input[type="email"] {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 1em;
+    }
+    input[type="submit"] {
+      background-color: #f37f5f;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      font-size: 1em;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    footer {
+      margin-top: 60px;
+      font-size: 0.9em;
+      color: #999;
+      text-align: center;
+      padding-bottom: 30px;
+    }
+    #cookie-banner {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background: #f37f5f;
+      color: white;
+      padding: 15px;
+      text-align: center;
+      z-index: 1000;
+      font-size: 1em;
+      box-shadow: 0 -2px 8px rgba(0,0,0,0.2);
+    }
+    #cookie-banner a {
+      color: #fff;
+      text-decoration: underline;
+    }
+    #cookie-banner button {
+      margin-left: 15px;
+      padding: 8px 15px;
+      background: #fff;
+      color: #f37f5f;
+      border: none;
+      cursor: pointer;
+      border-radius: 4px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+    #cookie-banner button:hover {
+      background-color: #ffe6d9;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://cdn-icons-png.flaticon.com/512/415/415733.png" alt="Plato del buen comer">
+    Tu NutriVida
+    <div class="correo-header">tunutrividacontacto@gmail.com</div>
+  </header>
+
+  <main>
+    <section class="intro">
+      <div class="intro-text">
+        <p>
+          Descubre una nueva forma de alimentarte: sin castigos, sin pasar hambre y sin complicaciones. 
+          En <strong>Tu NutriVida</strong> aprenderás cómo disfrutar cada comida sin culpa, con guías reales, sencillas y sabrosas. 
+          ¿Listo para transformar tu nutrición sin sufrir?
+        </p>
+        <p><strong>Membresía para el cambio que esperabas:</strong> La mejor dieta sin morirse de hambre. ¡Impulsa tu atractivo!</p>
+      </div>
+      <div class="side-text">
+        Da tu primer paso a una dieta real sin morirse de hambre, disfrutando de la comida real. ¡Empieza hoy!
+      </div>
+    </section>
+
+    <section class="esloganes">
+      <p>“No sufras en tu dieta”</p>
+      <p>“Come real, come feliz”</p>
+      <p>“Disfruta el proceso, no lo padezcas”</p>
+      <p>“La comida rica también puede ser saludable”</p>
+    </section>
+
+    <div class="eslogan-resaltado">
+      Tu salud y atractivo vale más que <span>$95</span>
+    </div>
+
+    <div class="imagenes">
+      <img src="https://images.unsplash.com/photo-1611078489935-4d39b2d20c7c" alt="Frutas y avena">
+      <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c" alt="Desayuno saludable">
+      <img src="https://images.unsplash.com/photo-1506084868230-bb9d95c24759" alt="Comida balanceada">
+    </div>
+
+    <a href="https://mpago.la/2eWyL5u" target="_blank" class="boton-pago">Pago asegurado por Mercado Pago</a>
+    <div class="texto-pago">
+      Después del pago, por favor ingresa tu número de teléfono, correo electrónico y nombre del titular del pago.
+      <br><br>
+      ¿Duda, falla u otro? Contáctanos: <strong>tunutrividacontacto@gmail.com</strong>
+    </div>
+
+    
+<p style="background:#fff0cc; border-left:4px solid #f37f5f; padding:10px; margin-top:40px;">
+  <strong>NOTA:</strong> El nombre debe ser el mismo que el titular del método de pago a realizar, el número y correo deben estar activos y el número de comprobante de pago es aquel que aparece en el comprobante de pago arrojado al pagar.
+</p>
+<form action="https://formsubmit.co/tunutrividacontacto@gmail.com" method="POST">
+      <input type="text" name="Nombre" placeholder="Nombre del titular del pago (importante)" required>
+      <input type="text" name="Teléfono" placeholder="Tu número de teléfono" required>
+      <input type="email" name="Correo" placeholder="Tu correo electrónico" required>
+      <input type="text" name="Comprobante" placeholder="Número comprobante de pago" required>
+<input type="hidden" name="_next" value="https://tuusuario.github.io/tu-nutrivida/gracias.html">
+      <input type="submit" value="Enviar datos">
+    </form>
+  </main>
+
+  <footer>
+    &copy; 2025 Tu NutriVida. Todos los derechos reservados.
+  </footer>
+
+  <div id="cookie-banner">
+    Este sitio usa cookies para mejorar tu experiencia y mostrar anuncios personalizados. 
+    <a href="/politica-privacidad.html" target="_blank" rel="noopener">Más info</a>
+    <button id="accept-cookies">Aceptar</button>
+  </div>
+
+  <script>
+    const cookieBanner = document.getElementById('cookie-banner');
+    const acceptBtn = document.getElementById('accept-cookies');
+
+    if (!localStorage.getItem('cookiesAccepted')) {
+      cookieBanner.style.display = 'block';
+    } else {
+      cookieBanner.style.display = 'none';
+    }
+
+    acceptBtn.addEventListener('click', () => {
+      localStorage.setItem('cookiesAccepted', 'true');
+      cookieBanner.style.display = 'none';
+    });
+  </script>
+
+</body>
+</html>
